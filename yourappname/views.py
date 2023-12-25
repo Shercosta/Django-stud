@@ -11,3 +11,7 @@ def index(request):
 
 def other_route(request):
     return render(request, "other_route.html")
+
+
+def spectate(request):
+    return render(request, "spectate.html")
